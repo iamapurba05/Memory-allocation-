@@ -1,0 +1,28 @@
+test_checks (test_algorithms.AllocationTests.test_checks) ... ok
+test_conservation (test_algorithms.AllocationTests.test_conservation) ... ok
+test_exact_fit (test_algorithms.AllocationTests.test_exact_fit) ... ok
+test_external_fragmentation (test_algorithms.AllocationTests.test_external_fragmentation) ... ok
+test_fixed_partition_waste (test_algorithms.AllocationTests.test_fixed_partition_waste) ... ok
+test_independent_runs (test_algorithms.AllocationTests.test_independent_runs) ... ok
+test_insufficient_memory (test_algorithms.AllocationTests.test_insufficient_memory) ... ok
+test_invalid_method_and_mode (test_algorithms.AllocationTests.test_invalid_method_and_mode) ... ok
+test_invalid_sizes (test_algorithms.AllocationTests.test_invalid_sizes) ... ok
+test_min_max_input (test_algorithms.AllocationTests.test_min_max_input) ... ok
+test_reuse_remainder (test_algorithms.AllocationTests.test_reuse_remainder) ... ok
+test_standard_workload (test_algorithms.AllocationTests.test_standard_workload) ... ok
+test_ties_choose_first (test_algorithms.AllocationTests.test_ties_choose_first) ... ok
+test_compare (test_api.APITests.test_compare) ... 127.0.0.1 - - [27/Nov/2026 04:02:34] "POST /api/simulate HTTP/1.1" 200 -
+ok
+test_fixed (test_api.APITests.test_fixed) ... 127.0.0.1 - - [27/Nov/2026 04:02:34] "POST /api/simulate HTTP/1.1" 200 -
+ok
+test_invalid (test_api.APITests.test_invalid) ... 127.0.0.1 - - [27/Nov/2026 04:02:34] "POST /api/simulate HTTP/1.1" 400 -
+ok
+test_static_files (test_api.APITests.test_static_files) ... 127.0.0.1 - - [27/Nov/2026 04:02:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [27/Nov/2026 04:02:34] "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 - - [27/Nov/2026 04:02:34] "GET /script.js HTTP/1.1" 200 -
+ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.517s
+
+OK
